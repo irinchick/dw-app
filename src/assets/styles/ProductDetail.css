@@ -1,0 +1,56 @@
+.product_detail{
+    background-image: url("https://www.danielwellington.com/media/staticbucket/media/wysiwyg/2018/holiday/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em;
+}
+.product_detail_item{
+    background: #fff;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.product_detail_visuals, .product_detail_info{
+    display: flex;
+    flex-basis: 46%;
+}
+.product_detail_info h1{
+    font-size: 1.2em;
+}
+
+.product_detail_info h6{
+    font-size: 1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: .8em 0;
+}
+
+.product_detail_visuals img{
+    width: 100%;
+    align-self: center
+}
+
+.product_detail_info{
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+}
+
+.product_detail_info p.product_detail_description{
+    font-weight: 300;
+}
+.product_color{
+    margin: 1em 0;
+    padding: 1em 0;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+}
+.color_swatch{
+    width:2em;
+    height:2em;
+    border-radius: 20em;
+    margin: 0 auto;
+    background:radial-gradient(circle at center center, rgb(255, 233, 207), rgb(232, 210, 173), rgb(216, 203, 161))
+}
